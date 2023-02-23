@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+fieldset {
+    margin: 0 0 0 100px;
+}
+
+        div {
+            margin: 10px  0;
+        }
+
+        button {
+            margin: 0 auto;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Payment form</h1>
+    <p>Required fields are followed by *,</p>
+    <h2>Contact information</h2>
+
+    <fieldset>
+      <legend>Title</legend>
+      <div>
+        <label for="radio1-input">Mister</label>
+        <input type="radio" name="title" id="radio-input" value="mister" />
+      </div>
+      <div>
+        <label for="radio2-input">Miss</label>
+        <input type="radio" name="title" id="radio-input" value="miss" />
+      </div>
+    </fieldset>
+
+    <form action="" method="get">
+        <div>
+          <label for="name">Name:*</label> 
+          <input type="text" name="name" id="name" />
+        </div>
+
+        <div>
+            <label for="email">E-mail:*</label> 
+            <input type="text" name="email" id="email" />
+          </div>
+
+          <div>
+            <label for="password">Password:*</label> 
+            <input type="text" name="password" id="password" />
+          </div>
+
+          <h2>Payment information</h2>
+
+          <form action="" method="get"></form>
+    <label for="card-type">Card type:</label>
+    <select name="card" id="card-select">
+      <option value="visa">Visa</option>
+      <option value="master-card">Master-card</option>
+    </select>
+    <div>
+        <label for="card-number">Card number:*</label> 
+        <input type="text" name="card-number" id="card-number" />
+      </div>
+      <div>
+        <label for="expiration-date">Expiration date:*</label> 
+        <input type="text" name="expiration-date" id="expiration-date" />
+      </div>
+
+      <button type="submit"> Validate the payment</button>
+  </body>
+</html>

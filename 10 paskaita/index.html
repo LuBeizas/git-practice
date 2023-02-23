@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h4>1.</h4>
+
+    <form action="" method="post">
+      <input type="text" name="first-name" placeholder="Enter your name" />
+      <!-- <input type="email" /> -->
+      <input type="password" name="password" />
+
+      <input type="reset" />
+      <!-- or -->
+      <button type="submit">Submit</button>
+    </form>
+    <!-- hr - deda bruksni -->
+    <hr />
+
+    <h4>2.</h4>
+
+    <form action="" method="get">
+      <div>
+        <label for="second-name">Your name:</label> <br />
+        <input type="text" name="first-name" id="second-name" />
+      </div>
+      <!-- <input type="email" /> -->
+      <div>
+        <label for="second-password">Password:</label> <br />
+        <input type="password" name="password" id="second-password" />
+      </div>
+
+      <!-- or -->
+      <button type="submit">Submit</button>
+    </form>
+    <!-- hr - deda bruksni -->
+    <hr />
+
+    <h4>3.</h4>
+
+    <form action="" method="get">
+      <fieldset>
+        <legend>General information</legend>
+        <label for="third-name">Name:</label> <br />
+        <input type="text" name="third-name" id="third-name" /> <br />
+
+        <label for="third-last-name-name">Last nsame:</label> <br />
+        <input type="text" name="third-last-name" id="third-last-name" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Shipping address</legend>
+        <label for="third-name">Name:</label> <br />
+        <input type="text" name="third-name" id="third-name" /> <br />
+
+        <label for="third-last-name-name">Last nsame:</label> <br />
+        <input type="text" name="third-last-name" id="third-last-name" />
+      </fieldset>
+
+      <button type="submit">Submit</button>
+    </form>
+    <!-- hr - deda bruksni -->
+    <hr />
+
+    <h4>4.</h4>
+
+    <form action="" method="get"></form>
+    <label for="city-select">Pick your city:</label><br />
+    <select name="city" id="city-select">
+      <option value="vilnius">Vilnius</option>
+      <option value="salcininkai">Salcininikai</option>
+    </select>
+    <br />
+
+    <button type="submit">submit</button>
+
+    <h4>5.</h4>
+
+    <form action="" method="get"></form>
+    <div>
+      <label for="number-input">Your name</label> <br />
+      <input
+        type="number"
+        name="number-input"
+        id="number-input"
+        min="-5"
+        max="5"
+      />
+    </div>
+
+    <div>
+      <label for="date-input">Date input:</label> <br />
+      <input type="date" name="date-input" id="date-input" />
+    </div>
+
+    <div>
+      <label for="file-input">File input:</label> <br />
+      <input type="file" name="file-input" id="file-input" />
+    </div>
+
+    <button type="submit">Submit</button>
+
+    <h4>6.</h4>
+    <div>
+      <label for="radio1-input">Apple</label>
+      <input type="radio" name="fav-fruit" id="radio-input" value="apple" />
+    </div>
+
+    <div>
+      <label for="radio2-input">Orange</label>
+      <input type="radio" name="fav-fruit" id="radio-input" value="orage" />
+    </div>
+
+    <div>
+      <label for="radio3-input">Bannana</label>
+      <input type="radio" name="fav-fruit" id="radio-input" value="bannana" />
+    </div>
+    <button type="submit">Submit</button>
+  </body>
+</html>
