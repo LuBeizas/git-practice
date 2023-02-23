@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgba(25, 73, 45, 0.904);
+      }
+      h1 {
+        text-align: center;
+        color: white;
+      }
+      h3 {
+        text-align: center;
+        color: white;
+      }
+      .fancy-form input {
+    outline: 2px solid red
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Register to Fancy Form</h1>
+    </header>
+    <main>
+        <form class="fancy-form" action="">
+      <h3>All fields are required unless marked as "optional"</h3>
+      <div>
+        <label for="">Your unique ID that you can't change</label> <br />
+        <input id="" type="text" />
+      </div>
+      <div>
+        <label for="email">Email</label> <br />
+        <input  type="email" id="email"/>
+      </div>
+      <div>
+        <label for="password">Password</label> <br />
+        <input id="password" type="password" />
+      </div>
+      <div>
+        <label for="ahe">Age</label> <br />
+        <input id="age" type="number" min="18" max="140"/>
+      </div>
+      <label for="">Tell us a little bit about yourself (optional)</label> <br />
+        <input id="" type="text" />
+      </div>
+    </main>
+</form>
+  </body>
+</html>
